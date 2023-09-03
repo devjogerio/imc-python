@@ -5,7 +5,7 @@ imc = peso / (altura * altura)
 if imc < 22:
     print('Você está abaixo do peso')
 
-if imc > 22:
+else:
     print('Você esta acima do peso')
 
 print('Seu IMC é {}'.format(imc))
